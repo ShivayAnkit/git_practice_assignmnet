@@ -1,12 +1,15 @@
 let num = 10;
-for(let i = 2; i < num; i++)
+count=0;
+for(let i = 1; i < num; i++)
 {
-    if(num % i == 0)
-    {
-        console.log("Prime");
+    if(num%2==0){
+        count++;
+        break;
     }
-    else
-    {
-        console.log("not prime");
-    }
+}
+if(count==0){
+    console.log('prime')
+}else{
+    console.log('not prime')
+
 }

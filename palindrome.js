@@ -1,5 +1,7 @@
 let num = 121;
-for(let i = 0; i <= num.length-1; i++)
+let sum='';
+for(let i = num.length-1; i >=0 ; i++)
 {
-    if
-}
+    sum+=num[i]
+}if(parseInt(sum)==num) console.log('palindrome')
+else console.log('not')
